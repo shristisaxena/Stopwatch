@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px #b5aaaa,
+    -20px -20px 60px white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.display{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    box-shadow: inset 20px 20px 20px #d9d9d9,
+    inset -20px -20px 60px #ffffff;
+    color: #333;
+}
+
+button{
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    box-shadow: 20px 20px 20px #d9d9d9,
+    -20px -20px 60px #ffffff;
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+button:hover{
+    transition: translate(5px, 5px);
+    box-shadow: 5px 5px 5px #d9d9d9,
+    -5px -5px 15px #ffffff;
+}
+
+.start{
+    background-color: rgb(71, 200, 71);
+    color: white;
+}
+
+.stop{
+    background-color: rgb(179, 36, 36);
+    color: white;
+}
+
+.reset{
+    background-color: rgb(235, 122, 57);
+    color: white;
+}
